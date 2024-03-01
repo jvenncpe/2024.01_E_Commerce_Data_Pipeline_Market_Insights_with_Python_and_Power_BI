@@ -5,7 +5,7 @@ Analyzed Amazon e-commerce data, cleaned, and imported to SQL Server with Python
 </br>• Utilized historical data from an e-commerce store on Amazon for analysis and visualization.
 </br>• Cleaned and imported this data into SQL Server using Python.
 </br></br>Web Scraping and Data Management:
-</br>• Developed a Python script to scrape current market competitors.
+</br>• Developed a Python script to scrape current market competition.
 </br>• Initially stored the web-scraped data in a staging table, then cleaned it and moved it to a production table.
 </br></br>Data Visualization and Analysis:
 </br>• Connected data from SQL Server to Microsoft Power BI Service for publishing and online access.
