@@ -1,6 +1,6 @@
 # E-Commerce Data Pipeline and Competitive Insights with Python and Power BI
 Analyzed Amazon e-commerce data, cleaned, and imported to SQL Server with Python. Developed a Python script for web scraping competitors, storing data in a staging table before cleaning and moving to production. Created a Power BI dashboard and a machine learning model to predict freight costs.
-------
+
 ## Summary:
 </br></br>Data Collection and Analysis:
 </br>• Utilized historical data from an e-commerce store on Amazon for analysis and visualization.
