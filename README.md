@@ -47,7 +47,6 @@ Data Collection and Analysis:
 ### Findings:
 
 <p>Upon comprehensive analysis of the evaluation metrics, it is evident that both the XGBoost and Gradient Boosting algorithms have demonstrated superior performance compared to the Random Forest model across multiple criteria.</p>
-<p align="center">
   
 | Metric                   | XGBoost (XGB) | Gradient Boosting (GB) | Random Forest (RF) |
 |--------------------------|---------------|-------------------------|--------------------|
@@ -55,7 +54,5 @@ Data Collection and Analysis:
 | Mean Absolute Error (MAE)| 4.27          | 4.34                    | 4.97               |
 | R2 Score                  | 0.71          | 0.71                    | 0.72               |
 | Explained Variance        | 0.71          | 0.71                    | 0.72               |
-
-</p>
 
 <p>Overall, based on the lower MSE and MAE, higher R2 score, and Explained Variance --- XGBoost and Gradient Boosting models perform better compared to Random Forest. </p>
