@@ -60,4 +60,4 @@ Data Collection and Analysis:
   <p align="center"><img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/09e16bea-596d-428b-ac13-ec2b7d508a49"/></p>
   <p align="center"><img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/1955e93e-f5c7-4f03-afe4-477d5ce12dc2"/></p>
 
-  "Product Weight (g)"  and "Customer Zip Code Prefix" has the highest importance score among the models.
+  "Product Weight (g)" and "Customer Zip Code Prefix" are among the features with the highest importance scores across the models.
