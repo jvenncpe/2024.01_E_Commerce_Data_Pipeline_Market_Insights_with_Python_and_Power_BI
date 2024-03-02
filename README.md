@@ -21,22 +21,38 @@ After a customer purchases the product from Olist Store a seller gets notified t
 ## Methodology:
 Data Collection and Analysis:
 </br>• Utilized historical data from an e-commerce store on Amazon for analysis and visualization.
-</br>• Cleaned and imported this data into SQL Server using Python.
+</br>• These historical data were cleaned and imported to the SQL Server using Python.
 </br></br>Web Scraping and Data Management:
-</br>• Developed a Python script to scrape current market competition.
-</br>• Initially stored the web-scraped data in a staging table, then cleaned it and moved it to a production table.
+</br>• Developed a Python script to scrape current amazon market competition and initially stored the web-scraped data in a staging table to do final data cleaning before moving it to the SQL production table.
 </br></br>Data Visualization and Analysis:
-</br>• Connected data from SQL Server to Microsoft Power BI Service for publishing and online access.
-</br>• Power BI accessed SQL Server: historical data via import and cleaned web-scraped data in the production table via direct query.
-</br>• Developed a Power BI dashboard to visualize both historical and web-scraped data.
-</br></br>Predictive Modeling:
-</br>• Created a machine learning model to predict freight costs.
+</br>• The data from SQL Server was connected to Microsoft Power BI  (Microsoft Fabric) Service through on-premise gateway for scalability, online access and Power BI web publishing.
+</br>• Power BI means of access to SQL Server: historical data via import and the cleaned web-scraped data in the production table was accessed via direct query.
+</br>• Developed a Power BI dashboard with three (3) modules or pagination wherein:
 
-## Outputs:
-1. [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjkxZWRmMDEtNDJhMC00ZGY3LWEwMWItZDE2OTcxODU5OTRkIiwidCI6IjQwNWNhNjU3LThiNjQtNDAwMy04ZDMyLTkyYWYyZjU5Y2UwNCIsImMiOjEwfQ%3D%3D): </br></br>
-  <p align="center"><img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/169ba480-54ea-4d7e-93e0-218e01ca6054"/></p>
-  <p align="center"><img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/4705dd46-2da3-4a2c-8523-497224ff00e5"/></p>
-  <p align="center"><img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/2c027e9c-5f4b-4677-a8fc-1cc98ef3dbfb"/></p>
+  <table align="center" width="100%">
+      <tr>
+        <td width="33.33%" valign="top">
+          <strong>First Page:</br></strong> The dashboard summarizes overall sales revenue, successful deliveries, and customer metrics, including its key performance indicators (KPIs).
+        </td>
+        <td width="33.33%" valign="top">
+          <strong>Second Page:</br></strong> Historical pricing analysis by product category, highlighting popular and least popular items, including pricing performance such as the most popular, lowest sold, and highest sold product prices.
+        </td>
+        <td width="33.33%" valign="top">
+          <strong>Third Page:</br></strong> Live data showcasing current competitor price analysis on Amazon, featuring the most popular product category and its corresponding pricing metrics, including the most popular, lowest sold, and highest sold product prices.
+        </td>
+      </tr>
+    </table>
+
+Predictive Modeling:
+</br>• Developed a machine learning model to predict freight costs, evaluated its performance using MSE, MAE, R2, and Explained Variance metrics, and identified the most influential factors through feature importance analysis.
+
+## Outputs, Results and Discussion:
+1. [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjkxZWRmMDEtNDJhMC00ZGY3LWEwMWItZDE2OTcxODU5OTRkIiwidCI6IjQwNWNhNjU3LThiNjQtNDAwMy04ZDMyLTkyYWYyZjU5Y2UwNCIsImMiOjEwfQ%3D%3D):
+     <p align="center">
+      <img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/169ba480-54ea-4d7e-93e0-218e01ca6054"/>
+      <img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/4705dd46-2da3-4a2c-8523-497224ff00e5"/>
+      <img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/2c027e9c-5f4b-4677-a8fc-1cc98ef3dbfb"/>
+    </p>
 
 2. Freight Pricing Model Evaluation Metrics:
    
@@ -52,15 +68,17 @@ Data Collection and Analysis:
    <p>Overall, based on the MSE and MAE (lower the better), R2 score, and Explained Variance (higher the better) -- XGBoost and Gradient Boosting models perform better compared to Random Forest. </p>
    
  3. Feature Importance:
-  <p align="center"><img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/b98d45f7-2e3c-445c-b94b-97d63b27e95e"/></p>
-  <p align="center"><img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/09e16bea-596d-428b-ac13-ec2b7d508a49"/></p>
-  <p align="center"><img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/1955e93e-f5c7-4f03-afe4-477d5ce12dc2"/></p>
+    <p align="center">
+      <img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/b98d45f7-2e3c-445c-b94b-97d63b27e95e"/>
+      <img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/09e16bea-596d-428b-ac13-ec2b7d508a49"/>
+      <img src="https://github.com/jvenncpe/2024.01_E_Commerce_Data_Pipeline_Market_Insights_with_Python_and_Power_BI/assets/35190918/1955e93e-f5c7-4f03-afe4-477d5ce12dc2"/>
+    </p>
+    
+    "Product Weight (g)" and "Customer Zip Code Prefix" are among the features with the highest importance scores across the models. 
 
-  "Product Weight (g)" and "Customer Zip Code Prefix" are among the features with the highest importance scores across the models. 
-  
-  This means that "Product Weight (g)" and "Customer Zip Code Prefix" are among the most influential factors in determining the outcomes of the models, indicating that these features are crucial for the generalization of the models. 
-  
-  Their importance suggests that the models are highly sensitive to variations in these features, which could lead to different outcomes based on the specific characteristics of the products and the geographical locations of the customers.
+    This means that "Product Weight (g)" and "Customer Zip Code Prefix" are among the most influential factors in determining the outcomes of the models, indicating that these features are crucial for the generalization of the models. 
+
+    Their importance suggests that the models are highly sensitive to variations in these features, which could lead to different outcomes based on the specific characteristics of the products and the geographical locations of the customers.
   
 ---
 # Thank you!
