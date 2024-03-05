@@ -6,7 +6,7 @@
 
 #### [Power BI Report View - Output Link Here](https://app.powerbi.com/view?r=eyJrIjoiMjkxZWRmMDEtNDJhMC00ZGY3LWEwMWItZDE2OTcxODU5OTRkIiwidCI6IjQwNWNhNjU3LThiNjQtNDAwMy04ZDMyLTkyYWYyZjU5Y2UwNCIsImMiOjEwfQ%3D%3D)
 
-# E-Commerce Data Pipeline and Competitive Insights with Python and Power BI
+# E-Commerce Data Pipeline and Market Insights with Python and Power BI
 Imported historical dataset into SQL Server using Python and developed a Python script to web scrape market competition that were then initially stored in a SQL staging table for data cleaning before importing to SQL production table to be used for Power BI dashboard and machine learning.
 
 ## Dataset Context
